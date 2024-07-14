@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#company {
+    text-align: center;
+    background-image: url("space.jpeg");
+    color: azure;
+    background-attachment: fixed;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 90px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+}
+
+.container {
+    margin-top: 140px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#about {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Sign In and Sign Up Form Styles */
+#signin, #signup {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#signin form, #signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+#signin label, #signup label {
+    margin: 10px 0 5px;
+}
+
+#signin input, #signup input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#signin button, #signup button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signin button:hover, #signup button:hover {
+    background-color: #555;
+}
+
+/* Profile Page Styles */
+#profile {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#profile form {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile label {
+    margin: 10px 0 5px;
+}
+
+#profile input, #profile textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#profile input[type="file"] {
+    padding: 5px;
+}
+
+#profile button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#profile button:hover {
+    background-color: #555;
+}
+
+/* Records Page Styles */
+#records {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#records table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#records table, #records th, #records td {
+    border: 1px solid #ddd;
+}
+
+#records th, #records td {
+    padding: 10px;
+    text-align: left;
+}
+
+#records th {
+    background-color: #f4f4f4;
+}
+
+#records img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Dashboard Styles */
+.dashboard-links {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-links li {
+    margin: 10px 0;
+}
+
+.dashboard-links a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dashboard-links a:hover {
+    background-color: #555;
+}
